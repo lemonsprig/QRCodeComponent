@@ -6,9 +6,9 @@ function App() {
   return (
     <div class={style.card}>
       <img src={qrcode} alt="QR Code"></img>
-      <p class={style.strapline}>
+      <h1 class={style.strapline}>
         Improve your front-end skills by building projects
-      </p>
+      </h1>
       <p class={style.instructions}>
         Scan the QR code to visit Frontend Mentor and take your coding skills to
         the next level
