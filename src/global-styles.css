@@ -52,7 +52,6 @@ html {
   color-scheme: light;
 
   --color-bg: hsl(212, 45%, 89%);
-  /*--color-bg: hsl(219, 15%, 55%);*/
   --color-light-text: hsl(220deg 15% 55%);
 
   --shadow-color: 250deg 35% 11%;
