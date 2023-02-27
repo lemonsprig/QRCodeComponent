@@ -5,7 +5,7 @@ import style from "../styles.module.css";
 function App() {
   return (
     <div class={style.card}>
-      <img src={qrcode}></img>
+      <img src={qrcode} alt="QR Code"></img>
       <p class={style.strapline}>
         Improve your front-end skills by building projects
       </p>
