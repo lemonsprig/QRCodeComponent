@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 325px;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: #fff;
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+}
+
+.card img {
+  border-radius: 10px;
+}
+
+.strapline {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #000;
+  margin: 1.5rem 0;
+}
+
+.instructions {
+  font-weight: 400;
+  color: var(--color-light-text);
+  padding-bottom: 10px;
+}
