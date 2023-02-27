@@ -4,7 +4,7 @@ import style from "../styles.module.css";
 
 function App() {
   return (
-    <div class={style.card}>
+    <main class={style.card}>
       <img src={qrcode} alt="QR Code"></img>
       <h1 class={style.strapline}>
         Improve your front-end skills by building projects
@@ -13,7 +13,7 @@ function App() {
         Scan the QR code to visit Frontend Mentor and take your coding skills to
         the next level
       </p>
-    </div>
+    </main>
   );
 }
 
